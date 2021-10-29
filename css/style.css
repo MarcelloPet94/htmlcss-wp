@@ -91,7 +91,8 @@ nav ul li a {
 }
 
 .img {
-    height: 100px;
+    height: 200px;
+    border-radius: 15px;    
     margin-bottom: 16px;
     background-color:yellow;
 }
@@ -101,6 +102,16 @@ nav ul li a {
     width: 20%;
 }
 
+.layer {
+    position: absolute;
+}
+
+.sx {
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px;
+}
 
 .center {
     float: left;
@@ -108,9 +119,23 @@ nav ul li a {
     margin: 0 1% 1%;
 }
 
+.cent {
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 700px;
+}
+
 .right {
     float: right;
     width: 20%;
+}
+
+.dx {
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 350px;
 }
 
 footer {
