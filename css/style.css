@@ -61,7 +61,6 @@ nav ul li a {
 } 
 
 #content-below {
-    background-color:#0186fe;
     margin-bottom: 16px;
 }
 
@@ -86,24 +85,41 @@ nav ul li a {
 }
 
 .left, .center, .right {
-    height: 400px;
-    background-color: #abcfe7;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #cccccc;
+}
+
+.layer-banner-small {
+    height: 200px;
+    background-color:rgba(20, 1, 1, 0.2);
 }
 
 .left {
     float: left;
-    width: 10%;
+    width: 20%;
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 210px;
 }
 
 .center {
     float: left;
-    width: 78%;
-    margin: 0 1% 1%;
+    width: 58%;
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 650px;
+    margin: 0 1%;
 }
 
 .right {
     float: right;
-    width: 10%;
+    width: 20%;
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 350px;
 }
 
 footer {
