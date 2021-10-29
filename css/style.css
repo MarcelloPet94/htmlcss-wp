@@ -31,11 +31,35 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-#content-up {
-    height: 500px;
-    background-color: #e1d67c;
-    margin: 1% 0;
+.corner-radius {
+    border-radius: 15px;
 }
+
+#content-up {
+    position: relative;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    
+}
+
+#layer {
+    height: 500px;
+    background-color:rgba(20, 1, 1, 0.2);
+}
+
+#cont-up-txt {
+    position: absolute;
+    bottom: 48px;
+    width: 50%;
+    padding:0 0 0 5%;
+    z-index: 1;
+}
+
+#cont-up-txt h1, #cont-up-txt p {
+    color: #ffffff;
+    font-weight: 300;
+} 
 
 #content-below {
     background-color:#0186fe;
