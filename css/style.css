@@ -39,8 +39,7 @@ nav ul li a {
     position: relative;
     height: 500px;
     background-image: url(../img/banner.jpg);
-    background-position: center center;
-    
+    background-position: center center;    
 }
 
 #layer {
@@ -73,9 +72,17 @@ nav ul li a {
 }
 
 .top {
-    height: 100px;
-    background-color: #abcfe7;
-    margin-bottom: 1%;
+    background-color:#ffffff;
+    padding: 40px 0;
+}
+
+.top h2 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.top p {
+    color: #a5a5a5;
 }
 
 .left, .center, .right {
