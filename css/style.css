@@ -63,7 +63,14 @@ nav ul li a {
 #content-below {
     height: auto;
     margin-bottom: 16px;
-    background-color:red;
+}
+
+#content-below h3 {
+    line-height: 32px;
+}
+
+#content-below h3, #content-below p {
+    color: #a5a5a5;
 }
 
 .clearfix::after {
@@ -87,7 +94,7 @@ nav ul li a {
 }
 
 .left, .center, .right {
-    background-color: #abcfe7;
+    position: relative;
 }
 
 .img {
@@ -102,8 +109,13 @@ nav ul li a {
     width: 20%;
 }
 
-.layer {
+.layer_box {
     position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(20, 1, 1, 0.2);
+    width: 240px;
+    height: 200px;
 }
 
 .sx {
@@ -117,6 +129,15 @@ nav ul li a {
     float: left;
     width: 58%;
     margin: 0 1% 1%;
+}
+
+.layer_box_center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(20, 1, 1, 0.2);
+    width: 696px;
+    height: 200px;
 }
 
 .cent {
@@ -138,7 +159,13 @@ nav ul li a {
     background-size: 350px;
 }
 
-footer {
-    height: 200px;
-    background-color:#8b01fd;
+footer p {
+    text-align: center;
+    padding: 32px;
+}
+
+.icon {
+    padding: 4px;
+    color: red;
+    box-sizing: border-box;
 }
